@@ -34,14 +34,17 @@ import img28 from "../assets/img/miscellaneous/Miscellaneous - 3.jpg";
 import img29 from "../assets/img/miscellaneous/Miscellaneous - 4.jpg";
 import img30 from "../assets/img/miscellaneous/Miscellaneous - 5.jpg";
 import img31 from "../assets/img/miscellaneous/Miscellaneous - 6.jpg";
+// Import Routing
+import { Link } from "react-router-dom";
 
 const Dishes = () => {
     return (
-
         <div className=" min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 bg-backgroundColor py-4">
-            <h1 className=" text-4xl font-semibold text-center pt-4 pb-10">
-                Dishes
-            </h1>
+            <Link to="/dishes">
+                <h1 to="/dishes" className=" text-4xl font-semibold text-center pt-24 pb-10">
+                    Dishes
+                </h1>
+            </Link>
             <div className=" flex flex-wrap gap-8 justify-center">
                 <DishesCard img={img1} title="Vada Pav Dish" />
                 <DishesCard img={img2} title="Vada Pav Dish" />
@@ -79,6 +82,7 @@ const Dishes = () => {
                 <DishesCard img={img31} title="Sandwich Dish" />
             </div>
         </div>
+
     );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Home from "./components/home";
+import Home from "./components/Home";
+import Dishes from "./components/Dishes";
 
 const App = () => {
   return (
@@ -9,6 +10,10 @@ const App = () => {
       <main>
         <div id="home">
           <Home />
+        </div>
+
+        <div id="dishes">
+          <Dishes />
         </div>
       </main>
     </div>

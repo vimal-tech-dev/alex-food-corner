@@ -132,8 +132,8 @@ const Navbar = () => {
                     <Link
                         to="/home"
                         className="hover:text-brightColor transition-all cursor-pointer"
-                        onClick={closeMenu}>Home
-                    </Link>
+                        onClick={closeMenu}
+                    ></Link>
                     <Link
                         to="/dishes"
                         className='hover:text-brightColor transition-all cursor-pointer'
@@ -173,7 +173,7 @@ const Navbar = () => {
                         className='hover:text-brightColor transition-all cursor-pointer'>Contact Us
                     </Link>
                 </div>
-            </div>
+            </di>
         </div>
     )
 }

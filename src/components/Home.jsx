@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import React from "react";
+import { Link } from "react-router-dom";
+>>>>>>> 957babf (Navbar Section wise link done)
 
 const Home = () => {
     return (

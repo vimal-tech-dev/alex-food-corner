@@ -1,8 +1,11 @@
 import React from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // import { Link } from "react-scroll";
 >>>>>>> 38e710a (Navbar Section wise link completed)
+=======
+>>>>>>> 957babf (Navbar Section wise link done)
 import { Link } from "react-router-dom";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";

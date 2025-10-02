@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";

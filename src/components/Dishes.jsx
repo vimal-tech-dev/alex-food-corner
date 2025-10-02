@@ -98,7 +98,6 @@ const Dishes = () => {
                 <DishesCard img={img10} title="Cream Cheese Samosa Dish" />
             </div>
         </div>
-
     );
 };
 

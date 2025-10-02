@@ -1,19 +1,16 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Dishes from "./components/Dishes";
-import { Routes, Route, Link } from "react-router-dom";
+import Home from "./components/home";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      {/* Define Routes */}
-      <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/dishes" element={<Dishes />} />
-      </Routes>
-
+      <main>
+        <div id="home">
+          <Home />
+        </div>
+      </main>
     </div>
   )
 }

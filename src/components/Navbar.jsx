@@ -1,6 +1,5 @@
 import React from "react";
-// import { Link } from "react-scroll";
-import { Link } from "react-router-dom"
+import { Link } from "react-scroll";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { BiChevronDown } from "react-icons/bi";
@@ -20,17 +19,17 @@ const Navbar = () => {
 
     return (
         <div className=" fixed w-full">
-            <div>
-                <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]" onClickOutside={closeMenu}>
-                    <div className=" flex flex-row items-center space-x-2 cursor-pointer" >
-                        <img src={logo} alt="Alex Food Corner Logo" className="h-8 w-auto rounded-lg" />
-                        <h1 className=" text-3xl font-bold text-red-500 mix-blend-multiply italic">
-                            AFC
-                        </h1>
+            <di>
+                <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+                    <div className=" flex flex-row items-center space-x-4 cursor-pointer" >
+                        
+                        <img src={logo} alt="Alex Food Corner Logo" className="h-10 w-auto rounded-lg" />
+                        <h1 className=" text-4xl font-bold text-red-500 mix-blend-multiply italic">AFC</h1>
+                        
                     </div>
                     <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
                         <Link
-                            to="/home"
+                            to="home"
                             spy={true}
                             smooth={true}
                             duration={500}
@@ -94,11 +93,11 @@ const Navbar = () => {
                             className='hover:text-brightColor transition-all cursor-pointer'>Menu
                         </Link>
                         <Link
-                            to="contact us"
+                            to="about"
                             spy={true}
                             smooth={true}
                             duration={500}
-                            className='hover:text-brightColor transition-all cursor-pointer'>Contact Us
+                            className='hover:text-brightColor transition-all cursor-pointer'>About
                         </Link>
                     </nav>
                     <div className="md:hidden flex items-center">
@@ -109,22 +108,21 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className={` ${menu ? "translate-x-0" : "-translate-x-full"
-                    } lg:hidden flex flex-col absolute bg-black text-white left-0 top-25 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 ease-in-out z-10 `}>
+                    } lg:hidden flex flex-col absolute bg-black text-white left-0 top-25 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
                     <Link
                         to="home"
                         spy={true}
                         smooth={true}
                         duration={500}
                         className="hover:text-brightColor transition-all cursor-pointer"
-                        onClick={closeMenu}>Home
-                    </Link>
+                        onClick={closeMenu}
+                    ></Link>
                     <Link
                         to="dishes"
                         spy={true}
                         smooth={true}
                         duration={500}
-                        className='hover:text-brightColor transition-all cursor-pointer'
-                        onClick={closeMenu}>Dishes
+                        className='hover:text-brightColor transition-all cursor-pointer'>Dishes
                     </Link>
                     <Link
                         to="menu"
@@ -134,14 +132,14 @@ const Navbar = () => {
                         className='hover:text-brightColor transition-all cursor-pointer'>Menu
                     </Link>
                     <Link
-                        to="contact us"
+                        to="about"
                         spy={true}
                         smooth={true}
                         duration={500}
-                        className='hover:text-brightColor transition-all cursor-pointer'>Contact Us
+                        className='hover:text-brightColor transition-all cursor-pointer'>About
                     </Link>
                 </div>
-            </div>
+            </di>
         </div>
     )
 }

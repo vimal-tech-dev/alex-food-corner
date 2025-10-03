@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
@@ -127,46 +126,46 @@ const Navbar = () => {
                     } lg:hidden flex flex-col absolute bg-black text-white left-0 top-25 font-semibold text-xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 ease-in-out z-10 `}>
                     <Link
                         to="/home"
-                        className="hover:text-brightColor transition-all cursor-pointer"
+                        className="hover:text-brightColor transition-all cursor-pointer bg-gray-400 text-black"
                         onClick={closeMenu}>Home
                     </Link>
                     <Link
                         to="/dishes"
-                        className='hover:text-brightColor transition-all cursor-pointer'
+                        className='hover:text-brightColor transition-all cursor-pointer bg-gray-400 text-black'
                         onClick={closeMenu}>Dishes
                     </Link>
                     <HashLink
                         to="/dishes#afcspecial"
-                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center'
+                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center text-yellow-400'
                         onClick={closeMenu}>AFC Special
                     </HashLink>
                     <HashLink
                         to="/dishes#vadapav"
-                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center'
+                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center text-yellow-400'
                         onClick={closeMenu}>Vada Pav
                     </HashLink>
                     <HashLink
                         to="/dishes#frenchfries"
-                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center'
+                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center text-yellow-400'
                         onClick={closeMenu}>French Fries
                     </HashLink>
                     <HashLink
                         to="/dishes#burger"
-                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center'
+                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center text-yellow-400'
                         onClick={closeMenu}>Burger
                     </HashLink>
                     <HashLink
                         to="/dishes#samosa"
-                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center'
+                        className='hover:text-brightColor transition-all cursor-pointer text-xs text-center text-yellow-400'
                         onClick={closeMenu}>Samosa
                     </HashLink>
-                    <Link
-                        to="menu"
-                        className='hover:text-brightColor transition-all cursor-pointer'>Menu
-                    </Link>
+                    <HashLink
+                        to="/menu#dashboard"
+                        className='hover:text-brightColor transition-all cursor-pointer bg-gray-400 text-black' onClick={closeMenu}>Menu
+                    </HashLink>
                     <Link
                         to="contact us"
-                        className='hover:text-brightColor transition-all cursor-pointer'>Contact Us
+                        className='hover:text-brightColor transition-all cursor-pointer bg-gray-400 text-black'>Contact Us
                     </Link>
                 </div>
             </div>

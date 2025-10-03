@@ -1,6 +1,3 @@
-import React from "react";
-import { BsStarFill } from "react-icons/bs";
-import { BsStarHalf } from "react-icons/bs";
 
 const DishesCard = (props) => {
     return (

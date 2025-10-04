@@ -1,4 +1,3 @@
-import React from "react";
 import DishesCard from "../layouts/DishesCard";
 import img1 from "../assets/img/vada pav/vada pav - 1.png";
 import img2 from "../assets/img/vada pav/vada pav - 2.png";

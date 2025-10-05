@@ -50,11 +50,11 @@ const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="
-                                            flex items-center justify-center gap-1.5 
+                                            flex items-center justify-center gap-2 
                                             bg-green-500 hover:bg-green-700 
                                             text-white 
-                                            text-xs sm:text-sm md:text-base
-                                            px-2.5 py-1 sm:px-3 sm:py-1.5 
+                                            text-xs sm:text-base
+                                            px-4 py-2 sm:px-4 sm:py-2 
                                             rounded-full shadow-sm 
                                             transition-all duration-300
                                         "

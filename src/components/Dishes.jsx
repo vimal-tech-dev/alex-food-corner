@@ -28,17 +28,15 @@ import img28 from "../assets/img/miscellaneous/Miscellaneous - 3.jpg";
 import img29 from "../assets/img/miscellaneous/Miscellaneous - 4.jpg";
 import img30 from "../assets/img/miscellaneous/Miscellaneous - 5.jpg";
 import img31 from "../assets/img/miscellaneous/Miscellaneous - 6.jpg";
-// Import Routing
-import { Link } from "react-router-dom";
 
 const Dishes = () => {
     return (
         <div className=" min-h-screen flex flex-col justify-center items-center lg:px-32 px-5 bg-backgroundColor py-4">
-            <Link to="/dishes">
+            <section id="topdishes">
                 <h1 className=" text-4xl font-bold text-center pt-24 pb-10">
                     Dishes
                 </h1>
-            </Link>
+            </section>
             {/* Alex Food Corner Special */}
             <section id="afcspecial" className=" flex flex-wrap gap-8 justify-center">
                 <h2 className="text-2xl font-semibold text-center">Alex Food Corner Special</h2>

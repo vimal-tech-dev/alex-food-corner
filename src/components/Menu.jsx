@@ -6,6 +6,10 @@ import menu3 from "../assets/img/menu/AFC-Menu - 3.jpg";
 import menu4 from "../assets/img/menu/AFC-Menu - 4.jpg";
 import menu5 from "../assets/img/menu/AFC-Menu - 5.jpg";
 import menu6 from "../assets/img/menu/AFC-Menu - 6.jpg";
+import menu7 from "../assets/img/menu/AFC-Menu - 7.jpg";
+import menu8 from "../assets/img/menu/AFC-Menu - 8.jpg";
+import menu9 from "../assets/img/menu/AFC-Menu - 9.jpg";
+
 
 const Menu = () => {
   return (
@@ -22,6 +26,9 @@ const Menu = () => {
         <DishesCard img={menu4} title="Page-4" />
         <DishesCard img={menu5} title="Page-5" />
         <DishesCard img={menu6} title="Page-6" />
+        <DishesCard img={menu7} title="Page-7" />
+        <DishesCard img={menu8} title="Page-8" />
+        <DishesCard img={menu9} title="Page-9" />
       </div>
     </div>
   );

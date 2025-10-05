@@ -26,7 +26,7 @@ const Footer = () => {
                             <a
                                 href="tel:+917016145578"
                                 className="text-yellow-400 hover:text-brightColor font-medium transition flex gap-2"
-                            >
+                            >Tap to order
                                 {/* Optional phone icon */}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -69,8 +69,6 @@ const Footer = () => {
                                 </svg>
                                 WhatsApp
                             </a>
-
-
                         </div>
                     </nav>
                 </div>

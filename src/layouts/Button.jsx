@@ -1,14 +1,21 @@
-
 const Button = (props) => {
     return (
-        <div>
-            <button className="px-6 py-3 border-2 border-brightColor text-brightColor hover:bg-blue-800 bg-blue-600 hover:text-white transition rounded-xl shadow-2xl hover:scale-105 duration-300 ease-in-out">
-                <a href="https://maps.app.goo.gl/xPyqUg9RhsaCiQvA7"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    {props.title}
-                </a>
-            </button>
+        <div className="inline-block">
+            <div className="relative group">
+                <div className="absolute -inset-1 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-300" />
+                <div className="relative">
+                    <button className="px-8 py-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white font-semibold rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                        <a
+                            href="https://maps.app.goo.gl/xPyqUg9RhsaCiQvA7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                        >
+                            {props.title}
+                        </a>
+                    </button>
+                </div>
+            </div>
         </div>
     );
 };

@@ -99,7 +99,7 @@ const Home = () => {
                                         href="https://maps.app.goo.gl/xPyqUg9RhsaCiQvA7"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="px-8 py-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white font-semibold rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center gap-2 inline-flex"
+                                        className="px-8 py-4 bg-gradient-to-r from-orange-500 to-pink-500 text-white font-semibold rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
                                     >
                                         <span>📍</span>
                                         <span>Open in Google Maps</span>

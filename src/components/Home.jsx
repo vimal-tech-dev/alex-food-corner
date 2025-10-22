@@ -63,7 +63,7 @@ const Home = () => {
             </section>
 
             {/* Map section with elegant framing */}
-            <div id="googlemap" className="relative py-16 lg:py-24">
+            <section id="googlemap" className="relative py-16 lg:py-24">
                 {/* Background decoration */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-50/30 to-transparent pointer-events-none" />
 
@@ -108,8 +108,24 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Additional info */}
+                    <div className="mt-8 flex flex-wrap justify-center gap-8 text-gray-600">
+                        <div className="flex items-center gap-2">
+                            <span className="text-2xl">🕐</span>
+                            <span className="font-medium">Open Daily 9AM - 9PM</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="text-2xl">📞</span>
+                            <span className="font-medium">Call for Book Your Order</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <span className="text-2xl">🏍️</span>
+                            <span className="font-medium">Free Parking Available</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     );
 };

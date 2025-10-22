@@ -32,7 +32,7 @@ const Navbar = () => {
                         </HashLink>
                         <HashLink to="/home#tophome">
                             <div>
-                                <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                                <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
                                     AFC
                                 </h1>
                                 <p className="text-xl text-gray-500 font-medium">Alex Food Corner</p>
@@ -115,7 +115,7 @@ const Navbar = () => {
                         </HashLink>
 
                         <HashLink
-                            to="/home#googlemap"
+                            to="/#googlemap"
                             className="text-gray-700 hover:text-orange-500 transition-all cursor-pointer relative group"
                         >
                             Location
